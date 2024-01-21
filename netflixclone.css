@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(46, 45, 45);
+    background-color: black;
+    overflow-x: hidden;
 }
 *{
     padding: 0;
@@ -325,12 +326,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.3rem;
     font-size: 1.5em;
     font-weight: bold;
     width: 1100px;
     cursor: pointer;  
     transition: all 1s ease-out;
+    padding: 18px;
 }
 .box:hover{
     background-color:rgba(255, 0, 0, 0.884);
@@ -392,3 +393,104 @@ footer img:hover{
 .heart:hover{
     font-size: 60px;
 }
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+body::-webkit-scrollbar {
+    width: 10px; 
+  }
+ body::-webkit-scrollbar-track {
+    background-color: black; 
+    }
+ body::-webkit-scrollbar-thumb {
+    background-color:red;
+    border-radius: 5px; 
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background-color:rgba(255, 0, 0, 0.781); 
+  }
+
+  @media screen and (max-width:1300px){
+    .bar{
+        max-width: 99vw;
+        padding: 20px;
+    }
+    .hero{
+        padding: 0px 25px;
+    }
+    .ea{
+        padding: 0px 25px;
+    }
+    .first{
+        flex-wrap: wrap;
+        padding: 0px 25px;
+    }
+    .mw{
+        flex-wrap: wrap;
+        padding: 0px 25px;
+    }
+    .third{
+        flex-wrap: wrap;
+        padding: 0px 25px;
+    }
+    .fourth{
+        flex-wrap: wrap;
+        padding: 0px 25px;
+    }
+    .tb{
+        width: 150px;
+    }
+    .gs{
+        font-size: 10px;
+    }
+    .a{
+        font-size: 7px;
+    }
+    .box{
+        width: 250px;
+    }
+    .b{
+        font-size: 9px;
+    }
+    .faq{
+        flex-wrap: wrap;
+        padding: 0px 25px;
+    }
+    .aimg img {
+        width: 305px;
+    }
+
+    .aimg video {
+        width: 305px;
+    }
+    .bimg img {
+        width: 305px;
+    }
+
+    .bimg video {
+        width: 305px;
+    }
+    .cimg img {
+        width: 305px;
+    }
+
+    .cimg video {
+        width: 305px;
+    }
+    .x{
+        font-size: 32px;
+    }
+    .y{
+        font-size: 18px;
+    }
+    .z{
+        font-size: 16px;
+    }
+
+}
+
+  
