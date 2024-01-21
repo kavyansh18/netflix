@@ -201,6 +201,15 @@ body{
     background-color: black;
     gap: 20px;
 }
+.faa1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.faa2{
+    font-size: 25px;
+    font-weight: 400;
+}
 .fb{
     color: white;
     display: flex;
@@ -286,6 +295,10 @@ body{
     margin-bottom: 10px;
 }
 .fc2{
+    font-size: 24px;
+    font-weight: 400;
+}
+.fcc2{
     font-size: 24px;
     font-weight: 400;
 }
@@ -453,14 +466,14 @@ body::-webkit-scrollbar {
         font-size: 7px;
     }
     .box{
-        width: 250px;
+        width: 310px;
+        font-size: 22px;
     }
     .b{
         font-size: 12px;
     }
     .faq{
         flex-wrap: wrap;
-        padding: 0px 25px;
     }
     .aimg img {
         width: 250px;
@@ -472,7 +485,7 @@ body::-webkit-scrollbar {
         right: 33px;
     }
     .bimg img {
-        width: 305px;
+        width: 255px;
     }
 
     .bimg video {
@@ -502,7 +515,50 @@ body::-webkit-scrollbar {
     .netflix img{
         width: 100px;
     }
-
+    .fa1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .fa2, .fa3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .fc1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .fc2, .fc3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .faa2{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 21px; 
+    }
+    .faa1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .fcc2{
+        font-size: 16px;
+        text-align: center; 
+        margin-bottom: 21px;
+    }
+    .faq h1{
+        margin-top: 8px;
+        font-size: 22px;
+    }
+    .box span{
+        font-size: 15px;
+        padding: 12px;
+    }
+    .box svg{
+        margin-right: 7px;
+        width: 18px;
+    }
 }
+
+
 
   
