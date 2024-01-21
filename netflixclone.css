@@ -428,6 +428,9 @@ body::-webkit-scrollbar {
   }
 
   @media screen and (max-width:1300px){
+    body{
+        overflow-x: hidden;
+    }
     .main{
         background-size: max(1500px,100vw);
     }
