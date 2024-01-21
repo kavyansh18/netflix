@@ -344,7 +344,6 @@ body{
     width: 1100px;
     cursor: pointer;  
     transition: all 1s ease-out;
-    padding: 22px;
 }
 
 .box:hover{
@@ -515,7 +514,7 @@ body::-webkit-scrollbar {
         text-align: center;
     }
     .netflix img{
-        width: 118px;
+        width: 100px;
     }
     .fa1{
         font-size: 26px;
